@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './component/navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <header>
+      <div className="topindicator">
+        <ul>
+          <li>User Name : n3f0</li>
+          <li>Tahun Anggaran : 2022</li>
+          <li>Tahapan : APBD-P</li>
+          <li>Modul : Penatausahaan</li>
+        </ul>
+      </div>
+      <Navbar/>
+    </header>
+   </>
   );
 }
 

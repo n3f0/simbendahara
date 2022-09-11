@@ -1,0 +1,57 @@
+.menu{
+    background-color: #c41617;
+    width: 100%;
+    font-size:10px;
+}
+.nav {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.nav li {
+    display: inline-block;
+    position: relative;
+    float: left;
+    background: #c41617;
+}
+.nav li a {
+    display: inline-block;
+    width: 250px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.nav li li {
+    float: left;
+}
+.nav li li a {
+    display: block;
+}
+.nav li:hover {
+    background: #000;
+}
+.nav ul {
+    position: absolute;
+    left: 0;
+    padding: 0;
+    display: none;
+}
+.nav li:hover ul ul {
+    display: none;
+}
+.nav li:hover ul ul ul {
+    display: none;
+}
+.nav li:hover ul {
+    display: block;
+}
+.nav li li:hover ul {
+    margin-top: -30px;
+    margin-left: 250px;
+    display: block;
+}
+.nav li li li:hover ul {
+    margin-top: -30px;
+    margin-left: 250px;
+    display: block;
+}
