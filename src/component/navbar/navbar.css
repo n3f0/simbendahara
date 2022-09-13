@@ -1,57 +1,75 @@
-.menu{
-    background-color: #c41617;
-    width: 100%;
-    font-size:10px;
-}
-.nav {
-    list-style: none;
-    float: left;
-    text-align: center;
-}
-.nav li {
-    display: inline-block;
+.top-nav{
+    background-color: #018a53;
+    padding:0;
+    display: flex;
+    justify-content: baseline;
+    font-size: 10pt;
     position: relative;
-    float: left;
-    background: #c41617;
 }
-.nav li a {
-    display: inline-block;
-    width: 250px;
-    line-height: 30px;
+.top-nav a{
     text-decoration: none;
-    color: #fff;
+    color:white;
+    font-size:10px;
+    margin:0;
+    padding:10px;
+
 }
-.nav li li {
-    float: left;
+.top-nav>.nav-group{
+    list-style:none;
+    display:flex;
+    flex-wrap: nowrap;
+    margin:0;
+    padding:0;
 }
-.nav li li a {
+.top-nav>.nav-group>li{
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
+.top-nav>.nav-group>li>ul>li>a{
+    width:100%;
+}
+.top-nav>.nav-group>li:hover > ul{
     display: block;
 }
-.nav li:hover {
-    background: #000;
-}
-.nav ul {
-    position: absolute;
-    left: 0;
-    padding: 0;
+.top-nav>.nav-group>li>ul{
     display: none;
+    position:absolute;
+    list-style:none;
+    top:100%;
+    background: #018a53;
+    margin:0;
+    padding:0;
 }
-.nav li:hover ul ul {
-    display: none;
+.top-nav>.nav-group>li>ul>li{
+    border-left: 3px solid #003822;
+    display: flex;
 }
-.nav li:hover ul ul ul {
-    display: none;
-}
-.nav li:hover ul {
+.top-nav>.nav-group>li>ul>li:hover>ul{
     display: block;
 }
-.nav li li:hover ul {
-    margin-top: -30px;
-    margin-left: 250px;
-    display: block;
+.top-nav>.nav-group>li>ul>li>ul{
+    display:none;
+    position:absolute;
+    list-style:none;
+    left:100%;
+    background: #018a53;
+    margin:0;
+    padding:0;
 }
-.nav li li li:hover ul {
-    margin-top: -30px;
-    margin-left: 250px;
-    display: block;
+.top-nav>.nav-group>li>ul>li>ul>li{
+    width:150px;
+    display: flex;
+    border-left: 3px solid #003822;
+}
+.top-nav>.nav-group>li>ul>li>ul>li>a{
+    width:100%;
+}
+
+.top-nav li:hover{
+    background-color: #015433;
+}
+.top-nav>a:hover{
+    background-color: #015433;
 }
