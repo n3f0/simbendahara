@@ -1,60 +1,67 @@
 import React from "react";
 import "./navbar.css";
+import {Link} from 'react-router-dom'
 const Navbar = (props) => {
   return (
     <nav className="top-nav">
-        <a href="/">Home</a>
+        <Link to="/">Home</Link>
         <ul className="nav-group">
-            <li><a href="">Persiapan</a>
+            <li><Link to="">Persiapan</Link>
                 <ul>
-                    <li><a href="">Rekanan</a></li>
-                    <li><a href="">Kontrak</a></li>
-                    <li><a href="">Adendum</a></li>
-                    <li><a href="">Berita Acara Barang Jasa</a></li>
-                    <li><a href="">Berita Acara Belanja Modal</a></li>
+                    <li><Link to="/persiapan/rekanan">Rekanan</Link></li>
+                    <li><Link to="/persiapan/kontrak">Kontrak</Link></li>
+                    <li><Link to="/persiapan/adendum">Adendum</Link></li>
+                    <li><Link to="/persiapan/ba-barjas">Berita Acara Barang Jasa</Link></li>
+                    <li><Link to="/persiapan/ba-modal">Berita Acara Belanja Modal</Link></li>
                 </ul>
             </li>
-            <li><a href="">Penatausahaan Penerimaan</a>
+            <li><Link to="">Penatausahaan Penerimaan</Link>
                 <ul>
-                    <li><a href="">SKP/SKR</a></li>
-                    <li><a href="">TBP</a>
+                    <li><Link to="">SKP/SKR</Link></li>
+                    <li><Link to="">TBP</Link>
                         <ul>
-                            <li><a href="">Dengan Penetapan</a></li>
-                            <li><a href="">Tanpa Penetapan</a></li>
+                            <li><Link to="">Dengan Penetapan</Link></li>
+                            <li><Link to="">Tanpa Penetapan</Link></li>
                         </ul>
                     </li>
-                    <li><a href="">STS</a>
+                    <li><Link to="">STS</Link>
                         <ul>
-                            <li><a href="">Dengan Penetapan</a></li>
-                            <li><a href="">Tanpa Penetapan</a></li>
+                            <li><Link to="">Dengan Penetapan</Link></li>
+                            <li><Link to="">Tanpa Penetapan</Link></li>
                         </ul>
                     </li>
-                    <li><a href="">BKU Bendahara Penerimaan</a></li>
+                    <li><Link to="">BKU Bendahara Penerimaan</Link></li>
 
 
                 </ul>
             </li>
-            <li><a href="">Penatausahaan Pengeluaran</a>
+            <li><Link to="">Penatausahaan Pengeluaran</Link>
                 <ul>
-                    <li><a href="">SPP</a>
+                    <li><Link to="">SPP</Link>
                         <ul>
-                            <li><a href="">Uang Persediaan</a></li>
-                            <li><a href="">LS</a></li>
-                            <li><a href="">GU/TU</a></li>
+                            <li><Link to="">Uang Persediaan</Link></li>
+                            <li><Link to="">LS</Link></li>
+                            <li><Link to="">GU/TU</Link></li>
                         </ul>
                     </li>
-                    <li><a href="">SPM</a></li>
-                    <li><a href="">Tanda Bukti Pengeluaran (TBP)</a></li>
-                    <li><a href="">Pajak UP/GU/TU</a></li>
-                    <li><a href="">Pelimpahan Uang</a></li>
-                    <li><a href="">Pengembalian Belanja</a></li>
-                    <li><a href="">BKU Bendahara Pengeluaran</a></li>
-                    <li><a href="">Pertanggung Jawaban UP/GU/TU</a></li>
+                    <li><Link to="">SPM</Link></li>
+                    <li><Link to="">Tanda Bukti Pengeluaran (TBP)</Link></li>
+                    <li><Link to="">Pajak UP/GU/TU</Link></li>
+                    <li><Link to="">Pelimpahan Uang</Link></li>
+                    <li><Link to="">Pengembalian Belanja</Link>
+                        <ul>
+                            <li><Link to="">Sisa UYHD</Link></li>
+                            <li><Link to="">Belanja LS</Link></li>
+                            <li><Link to="">Belanja TU</Link></li>
+                        </ul>
+                    </li>
+                    <li><Link to="">BKU Bendahara Pengeluaran</Link></li>
+                    <li><Link to="">Pertanggung Jawaban UP/GU/TU</Link></li>
                 </ul>
             </li>
-            <li><a href="">Cetak</a></li>
+            <li><Link to="">Cetak</Link></li>
         </ul>
-        <a href="/logout">Logout</a>
+        <Link to="/logout">Logout</Link>
     </nav>
   );
 };

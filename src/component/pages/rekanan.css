@@ -1,0 +1,32 @@
+.pilihan{
+    margin-top: 30px;
+}
+.form-group{
+    display: flex;
+    font-size:1tpx;
+    vertical-align: middle;
+}
+.form-group>label{
+    width: 10%;
+}
+.form-group>.c1{
+    width:10%;
+}
+.form-group>.btnlookup{
+    width:2.5%;
+    background-color: #4E20F7;
+    color:white;
+    border:none;
+    margin-left:5px;
+    margin-right:5px;
+    cursor: pointer;
+}
+.form-group>.btnlookup:hover{
+    background-color: #280999;
+}
+.form-group>.btnlookup:active{
+    background-color: #8668f6;
+}
+.form-group>.c2{
+    width: 68%;
+}

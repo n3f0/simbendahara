@@ -3,14 +3,14 @@
     padding:0;
     display: flex;
     justify-content: baseline;
-    font-size: 10pt;
+    font-size: 11pt;
     position: relative;
     box-shadow: 0 4px 2px -2px gray;
 }
 .top-nav a{
     text-decoration: none;
     color:white;
-    font-size:10px;
+    font-size:11px;
     margin:0;
     padding:10px;
 
