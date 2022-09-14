@@ -14,6 +14,21 @@ const Rekanan=(props)=>{
                     <input type="text" className="c2" name="nmunit" id="nmunit" disabled />
                 </div>
             </div>
+            <div className="row">
+                <table className="table">
+                    <thead>
+                        <tr>
+                            <th>Kode</th>
+                            <th>Nama</th>
+                            <th>No.Rek</th>
+                            <th>NPWP</th>
+                            <th>Jenis Usaha</th>
+                            <th>Alamat</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
         </section>
     );
 
