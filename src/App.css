@@ -1,12 +1,14 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
 }
 
 body{
   margin:0;
   padding:0;
-  background-color: #e5ffe7;
+  background-color: #fde9ee;
 }
 
 .topindicator{
@@ -32,11 +34,11 @@ body{
 }
 section.content{
   margin:20px;
-  background-color: rgb(234, 234, 234);
+  background-color: #f4fff5;
   padding:20px;
-  border-radius: 5px;
+  border-radius: 3px;
   border:1px solid rgb(195, 211, 208);
-  box-shadow: 1px 1px 10px #c5d6ff;
+  box-shadow: 1px 1px 5px #c5d6ff;
   font-size:10pt;
 }
 section.content>h4{

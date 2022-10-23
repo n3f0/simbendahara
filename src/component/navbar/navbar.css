@@ -1,5 +1,5 @@
 .top-nav{
-    background-color: #018a53;
+    background-color: #FF7E00;
     padding:0;
     display: flex;
     justify-content: baseline;
@@ -39,13 +39,13 @@
     position:absolute;
     list-style:none;
     top:100%;
-    background: #018a53;
+    background: #FF7E00;
     margin:0;
     padding:0;
     box-shadow: 0 4px 2px -2px gray;
 }
 .top-nav>.nav-group>li>ul>li{
-    border-left: 3px solid #005936;
+    border-left: 3px solid #A976FF;
     display: flex;
 }
 .top-nav>.nav-group>li>ul>li:hover>ul{
@@ -56,7 +56,7 @@
     position:absolute;
     list-style:none;
     left:100%;
-    background: #018a53;
+    background: #FF7E00;
     margin:0;
     padding:0;
     box-shadow: 0 4px 2px -2px gray;
@@ -64,15 +64,17 @@
 .top-nav>.nav-group>li>ul>li>ul>li{
     width:150px;
     display: flex;
-    border-left: 3px solid #005936;
+    border-left: 3px solid #A976FF;
 }
 .top-nav>.nav-group>li>ul>li>ul>li>a{
     width:100%;
 }
 
 .top-nav li:hover{
-    background-color: #015433;
+    background-color: #E8D72A;
+    color:#E80B3E;
 }
 .top-nav>a:hover{
-    background-color: #015433;
+    background-color: #E8D72A;
+    color:#E80B3E;
 }
