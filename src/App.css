@@ -46,17 +46,17 @@ section.content>h4{
   padding:0;
 }
 .btnedit{
-  background: rgb(63, 63, 235);
+  background: rgb(80, 115, 255);
   color: #fff;
-  padding:5px;
+  padding:3px;
   cursor: pointer;
   border:none;
   font-size:10px;
 }
 .btnhapus{
-  background: #E80B3E;
+  background: #ff5b81;
   color: #fff;
-  padding:5px;
+  padding:3px;
   cursor: pointer;
   border: none;
   font-size:10px;
@@ -113,9 +113,15 @@ table>thead{
   border-top: 1px solid #ccc;
   border-bottom:1px solid #ccc;
   font-weight: 100;
-  background: #e1e0e0;
+  background: #FF7E00;
+  color:#fff;
 }
-table>thead>tr>th{
+table>tfoot{
+  border-top: 1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  font-weight: 100;
+}
+table th,td{
   padding:5px;
 }
 .text-right{
@@ -126,4 +132,7 @@ table>thead>tr>th{
 }
 .text-center{
   text-align: center;
+}
+table tbody tr:nth-child(odd){
+  background: #efefef;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react';
 import Unitsubkeg from '../fitur/unitsubkeg';
 
 
@@ -15,8 +16,17 @@ const Kontrak=(props)=>{
     );
 
 }
+const listkontrak=[
+{nokon:'001/SPK/BINAMARGA/2022',tglkon:'2022-01-01',tglselesaikon:'2022-07-25',uraikon:'Pembuatan Riol Jalan Lintas Sumatera Kab.Sijunjung s.d Kab. Darmas Raya Prov. Sumbar',nmp3:'PT. Indah Perkasa',nilai:250003720},
+{nokon:'001/SPK/BINAMARGA/2022',tglkon:'2022-01-01',tglselesaikon:'2022-07-25',uraikon:'Pembuatan Riol Jalan Lintas Sumatera Kab.Sijunjung s.d Kab. Darmas Raya Prov. Sumbar',nmp3:'PT. Indah Perkasa',nilai:250003720},
+{nokon:'001/SPK/BINAMARGA/2022',tglkon:'2022-01-01',tglselesaikon:'2022-07-25',uraikon:'Pembuatan Riol Jalan Lintas Sumatera Kab.Sijunjung s.d Kab. Darmas Raya Prov. Sumbar',nmp3:'PT. Indah Perkasa',nilai:250003720},
+{nokon:'001/SPK/BINAMARGA/2022',tglkon:'2022-01-01',tglselesaikon:'2022-07-25',uraikon:'Pembuatan Riol Jalan Lintas Sumatera Kab.Sijunjung s.d Kab. Darmas Raya Prov. Sumbar',nmp3:'PT. Indah Perkasa',nilai:250003720},
+{nokon:'001/SPK/BINAMARGA/2022',tglkon:'2022-01-01',tglselesaikon:'2022-07-25',uraikon:'Pembuatan Riol Jalan Lintas Sumatera Kab.Sijunjung s.d Kab. Darmas Raya Prov. Sumbar',nmp3:'PT. Indah Perkasa',nilai:250003720},
+]
 
 const Kontraklist=(props)=>{
+    var [kontrak,setKontrak]=useState(listkontrak);
+   
     return(
         <section className="area">
             <table className='table'>
@@ -31,10 +41,25 @@ const Kontraklist=(props)=>{
                         <th>Action</th>
                     </tr>
                 </thead>
+                <tbody>
+                    {kontrak.map((v,i)=>{
+                        return(
+                            <tr key={i}>
+                                <td><a href="">{v.nokon}</a></td>
+                                <td>{v.tglkon}</td>
+                                <td>{v.tglselesaikon}</td>
+                                <td>{v.uraikon}</td>
+                                <td>{v.nmp3}</td>
+                                <td className='text-right'>{v.nilai}</td>
+                                <td className='text-center'><button className="btnedit">Edit</button><button className="btnhapus">Hapus</button></td>
+                            </tr>
+                        )
+                    })}
+                </tbody>
                 <tfoot>
                     <tr>
-                        <th colSpan={5}>Jumlah</th>
-                        <th>0,00</th>
+                        <th colSpan={5} className='text-right'>Jumlah</th>
+                        <th className='text-right'>0,00</th>
                         <th></th>
                     </tr>
                 </tfoot>
