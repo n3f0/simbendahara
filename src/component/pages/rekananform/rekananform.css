@@ -1,0 +1,36 @@
+.input-sidebar{
+    position: absolute;
+    max-width: 500px;
+    width:500px;
+    border:1px solid #ccc;
+    top :55px;
+    z-index:1000;
+    min-height: calc(100% - 55px);
+    right:0;
+    background:#fff; 
+    padding:0;
+}
+.input-sidebar h1,h2,h3,h4,h5{
+    margin:0;
+    padding:20px;
+    color: #8dc80e;
+    border-bottom:1px solid #e1e4e6;
+    font-weight: 100;
+}
+
+.input-sidebar .form-wrapper{
+    padding:20px;
+}
+.form-wrapper .form-group{
+    margin-bottom:10px;
+}
+.form-group label{
+    width:30%;
+    color:#808386
+}
+.form-group .form-control{
+    width:70%;
+}
+.form-group input,select{
+    border:1px solid #08a667;
+}

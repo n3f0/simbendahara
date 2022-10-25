@@ -31,26 +31,3 @@
 .form-group>.c2{
     width: 68%;
 }
-table.table{
-    width: 100%;
-    border-collapse: collapse;
-    border-radius: 2px;
-}
-table.table>thead{
-    border-top:1px solid rgb(221, 221, 221);
-    border-bottom:1px solid rgb(242, 238, 238);
-    background-color: #E8D72A;
-    color: #A976FF;
-}
-table.table>thead>tr>th{
-    padding:10px;
-    text-align: left;
-}
-table.table tbody tr{
-    background: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(233, 237, 242);
-}
-table.table tbody tr td{
-    padding:5px;
-    color: rgb(49, 49, 49);
-}

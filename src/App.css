@@ -2,13 +2,13 @@
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-size: 11px;
 }
 
 body{
   margin:0;
   padding:0;
   background-color: #fde9ee;
+  font-size:11px;
 }
 
 .topindicator{
@@ -44,4 +44,86 @@ section.content{
 section.content>h4{
   margin:0;
   padding:0;
+}
+.btnedit{
+  background: rgb(63, 63, 235);
+  color: #fff;
+  padding:5px;
+  cursor: pointer;
+  border:none;
+  font-size:10px;
+}
+.btnhapus{
+  background: #E80B3E;
+  color: #fff;
+  padding:5px;
+  cursor: pointer;
+  border: none;
+  font-size:10px;
+}
+.content-title{
+  margin-left:20px;
+}
+
+.pilihan-group{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:5px;
+  font-size: 11px;
+}
+.pilihan-group .pilihan-left{
+  border:1px solid #ccc;
+  min-height: 20px;
+  padding:3px;
+  width:10%;
+}
+.pilihan-group .pilihan-search{
+background: none;
+border:none;
+cursor: pointer;
+}
+.pilihan-group .pilihan-search:hover{
+  color:#6f6f6f;
+  border:1px solid #a5e4bb;
+  border-radius: 3px;
+}
+.pilihan-group .pilihan-right{
+  border:1px solid #ccc;
+  padding:3px;
+  min-height: 20px;
+  width: 75%;
+
+}
+.pilihan-group .lbl-pilihan{
+  padding:3px;
+  width:8%;
+}
+.fitur{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+table{
+  border-collapse: collapse;
+  width:100%;
+  font-size:11px;
+
+}
+
+table>thead{
+  border-top: 1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  font-weight: 100;
+  background: #e1e0e0;
+}
+table>thead>tr>th{
+  padding:5px;
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
 }
