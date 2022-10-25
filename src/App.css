@@ -136,3 +136,10 @@ table th,td{
 table tbody tr:nth-child(odd){
   background: #efefef;
 }
+.cursor-pointer{
+  cursor:pointer;
+  color:blue;
+}
+table>tbody>tr:hover{
+  background: #a5e4bb;
+}

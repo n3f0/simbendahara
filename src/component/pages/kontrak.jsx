@@ -26,6 +26,7 @@ const listkontrak=[
 
 const Kontraklist=(props)=>{
     var [kontrak,setKontrak]=useState(listkontrak);
+    var [total,settotal]=useState(35000)
    
     return(
         <section className="area">
@@ -45,7 +46,7 @@ const Kontraklist=(props)=>{
                     {kontrak.map((v,i)=>{
                         return(
                             <tr key={i}>
-                                <td><a href="">{v.nokon}</a></td>
+                                <td onClick={()=>{alert(v.nokon)}} className="cursor-pointer">{v.nokon}</td>
                                 <td>{v.tglkon}</td>
                                 <td>{v.tglselesaikon}</td>
                                 <td>{v.uraikon}</td>
@@ -59,7 +60,7 @@ const Kontraklist=(props)=>{
                 <tfoot>
                     <tr>
                         <th colSpan={5} className='text-right'>Jumlah</th>
-                        <th className='text-right'>0,00</th>
+                        <th className='text-right'>{total}</th>
                         <th></th>
                     </tr>
                 </tfoot>
