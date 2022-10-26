@@ -143,3 +143,19 @@ table tbody tr:nth-child(odd){
 table>tbody>tr:hover{
   background: #a5e4bb;
 }
+
+.search-wrapper{
+  padding:10px;
+}
+.search-wrapper .search-section{
+}
+.search-section label{
+  width:100px;
+}
+.search-section input,select,button{
+  margin-inline: 5px;
+  color: #201f1f;
+}
+.search-section input,select{
+  border:1px solid #08a667;
+}

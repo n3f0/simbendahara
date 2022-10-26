@@ -11,7 +11,6 @@ export default function Unitsubkeg(props) {
     setltree(val)
   }
   useEffect(()=>{
-    console.log(unit)
   })
   function ChangeUnit(param){
     setUnit(param)

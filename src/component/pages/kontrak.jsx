@@ -30,6 +30,21 @@ const Kontraklist=(props)=>{
    
     return(
         <section className="area">
+            <div className="search-wrapper">
+                <div className="search-section">
+                    <form>
+                        <label htmlFor="kontrak">Parameter :</label>
+                        <input type="text" name="kontrak" id="kontrak" placeholder='Cari...'/>
+                        <select>
+                            <option value="1">No.Kontrak</option>
+                            <option value="1">Tgl.Kontrak</option>
+                            <option value="1">Rekanan</option>
+                            <option value="1">Nilai</option>
+                        </select>
+                        <button type='submit'><i className="fa fa-search"></i> Cari</button>
+                    </form>
+                </div>
+            </div>
             <table className='table'>
                 <thead>
                     <tr>
