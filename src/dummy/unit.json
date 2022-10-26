@@ -1,0 +1,22 @@
+[
+    {"uruskey":"","kdurus":"1.","nmurus":"Urusan Wajib Pelayanan Dasar",
+     "bidang":[
+        {"bidangkey":"10_","kdbidang":"1.01.","nmbidang":"Pendidikan",
+         "skpd":[
+            {"unitkey":"2611_","kdunit":"1.01.0.00.0.00.01.","nmunit":"DINAS PENDIDIKAN","subunit":[
+               {"unitkey":"2612_","kdunit":"1.01.0.00.0.00.01.0001.","nmunit":"CABDIN 1 KOTA PADANG"},
+               {"unitkey":"2612_","kdunit":"1.01.0.00.0.00.01.0002.","nmunit":"CABDIN 2 KOTA BUKITTING"},
+               {"unitkey":"2612_","kdunit":"1.01.0.00.0.00.01.0003.","nmunit":"CABDIN 3 KABUPATEN SINJUNJUNG"},
+               {"unitkey":"2612_","kdunit":"1.01.0.00.0.00.01.0004.","nmunit":"CABDIN 4 KOTA SAWAHLUNTO"}
+            ]}
+         ]
+      },
+      {"bidangkey":"11_","kdbidang":"1.02.","nmbidang":"Kesehatan","skpd":[
+         {"unitkey":"2611_","kdunit":"1.02.0.00.0.00.01.","nmunit":"DINAS KESEHATAN","subunit":[
+            {"unitkey":"2611_","kdunit":"1.02.0.00.0.00.01.0001.","nmunit":"UPTD BKOM DIK"}
+         ]}
+        ]},
+        {"bidangkey":"11_","kdbidang":"1.03.","nmbidang":"Bina Marga Cipta Karya","skpd":[]}
+     ]
+    }
+]
